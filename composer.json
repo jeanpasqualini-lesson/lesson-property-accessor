@@ -1,0 +1,24 @@
+{
+  "name": "vendor_name/package_name",
+  "description": "description_text",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "autoload" :
+  {
+     "psr-4" :
+     {
+       "" : "src/"
+     }
+  },
+  "authors": [
+    {
+      "name": "author's name",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "symfony/property-access": "2.7.x-dev"
+  }
+}
+
+
